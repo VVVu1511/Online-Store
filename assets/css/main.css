@@ -458,9 +458,8 @@
 /* product item */
 
 .home-product-item{
-    margin-left: -10px;
-    margin-top: 10px;
-    background-color: var(--white-color);
+    margin: 10px 10px 10px -10px;
+    background-color: red;
     position: relative;
 }
 
@@ -530,6 +529,7 @@ i.home-product-item__action-loved-icon{
     transform: scale(0.7);
     transform-origin: right;
     color: #d5d5d5;
+    margin-left: auto;
 }
 
 .home-product-item__origin{
@@ -581,4 +581,14 @@ i.home-product-item__action-loved-icon{
     font-weight: 1000;
     color: whitesmoke;
     font-size: 1.4rem;
+}
+
+.home-product-item_stargold{
+    color: rgb(255, 255, 0);
+}
+
+.home-product-item-sold{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-left: 6px;
 }
