@@ -4,6 +4,7 @@
     --text-color: #333;
     --primary-color: #EE4D2D;
     --border-color: #dbdbdb;
+    --yellow-color:  rgba(255,216,64,0.94);
 }
 
 *{
@@ -72,7 +73,7 @@ ul,ol{
 /*Button styles*/
 
 .btn{
-    min-width: 142px;
+    min-width: 124px;
     height: 34px;
     text-decoration: none;
     border: none;
@@ -130,38 +131,32 @@ ul,ol{
     margin-right: 5px;
 }
 
+.container{
+    background-color: #f5f5f5;
+}
+
 .grid__row{
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 5px;
-    margin-right: 5px;
+    flex-wrap: wrap; 
 }
 
 .grid__column-2{
-    margin-left: 5px;
-    margin-right: 5px;
     width: 16.667%;
-}
-
-.grid__column-2-4{
-    margin-left: 5px;
-    margin-right: 5px;
-    width: calc(20% - 8px);
-}
-
-.grid__column-2-4-2{
-    width: 230px;   
-    
+    margin-right: 10px;
 }
 
 .grid__column-10{
-    width: calc(83.333% - 48px);
-    margin-left: 5px;
-    margin-right: 5px;
+    width: calc(83.333% - 10px);
 }
 
-.container{
-    background-color: #f5f5f5;
+.grid__column-2-4{
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.grid__column-2-4-2 .home-product-item{
+    /* margin-right: 0px; */
 }
 
 .category{
@@ -200,6 +195,7 @@ ul,ol{
 
 .select-input__list{
     position: relative;
+    z-index: 1000;
     padding: 5px 10px;
     width: 100%;
     top: 50px;
