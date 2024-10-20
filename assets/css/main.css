@@ -43,9 +43,15 @@
     display: flex;
     justify-content: space-between;
 }
+
 .header__navbar-item--bold{
     font-weight: 400;
 }
+
+.header__navbar-item-login{
+    margin-top: 2px;
+}
+
 .header__navbar-item--separate::after{
     content: "";
     display: block;
@@ -216,6 +222,10 @@
 }
 
 /*Authen modal*/
+
+.modal{
+    display: none;
+}
 
 .auth-form{
     width: 500px;
@@ -722,6 +732,10 @@
 
 .header__navbar-user-item a:hover{
     color: var(--primary-color);
+}
+
+.header__navbar-item-register,.header__navbar-item-login{
+    display: none;
 }
 
 .header__cart-view:hover{

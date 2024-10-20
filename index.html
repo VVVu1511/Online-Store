@@ -102,8 +102,9 @@
                                 <i class="fa-regular fa-circle-question header__navbar-icon"></i>
                                 Trợ giúp</a>
                         </li>
-                        <!-- <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separate">Đăng ký</li> -->
-                        <!-- <li class="header__navbar-item header__navbar-item--bold">Đăng nhập</li> -->
+                        
+                        <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separate header__navbar-item-register">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--bold header__navbar-item-login">Đăng nhập</li>
                     
                         <li class = "header__navbar-item header__navbar-user"> 
                             <img src="./assets/img/k520.jpg" alt="" class="header__navbar-user-img">
@@ -122,7 +123,7 @@
                                     <a href = "#">Đơn mua</a>
                                 </li>
 
-                                <li class="header__navbar-user-item">
+                                <li class="header__navbar-user-item header__navbar-user-item-logout">
                                     <a href = "#">Đăng xuất</a>
                                 </li>
                             </ul>
@@ -974,12 +975,12 @@
     
     </div>    
 
-    <!-- <div class="modal">
+     <div class="modal">
         <div class="modal__overlay"></div>
 
         <div class="modal__body">
-            register form
-            <div class="auth-form">
+            <!-- register form -->
+            <div class="auth-form auth-form-register">
                     <div class="auth-form__container">
                         <div class="auth-form__header">
                             <h3 class="auth-form__heading">Đăng ký</h3>
@@ -1033,8 +1034,8 @@
                 
                 </div> 
                 
-                Login form
-                <div class="auth-form">
+                <!-- Login form -->
+                <div class="auth-form auth-form-login">
                     <div class="auth-form__container">
                         <div class="auth-form__header">
                             <h3 class="auth-form__heading">Đăng nhập</h3>
@@ -1086,8 +1087,9 @@
                 </div>
         </div>
 
-        
-    -->
+    
     </div>
+
+    <script src = "./assets/js/main.js"></script>
 </body>
 </html>
